@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:id="@+id/registrationText"
+        android:text="Registration Page"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:id="@+id/TxtRegistrationemail"
+        android:hint="email address"
+        android:drawablePadding="20dp"
+        android:background="@drawable/customshape"
+        android:drawableLeft="@drawable/email"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:drawablePadding="10dp"
+        android:layout_height="55dp"
+        android:id="@+id/Txtregistrationpassword"
+        android:textSize="30dp"
+        android:background="@drawable/customshape"
+        android:drawableLeft="@drawable/password"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:hint="password"/>
+    <EditText
+        android:layout_width="300dp"
+        android:drawablePadding="10dp"
+        android:layout_height="55dp"
+        android:id="@+id/Txtregistrationcomfirmpassword"
+        android:textSize="30dp"
+        android:background="@drawable/customshape"
+        android:drawableLeft="@drawable/password"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:hint="password"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:id="@+id/btnregistrarion"
+        android:background="@drawable/customshape"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtlogn"
+        android:text="Have an account? click here"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>
